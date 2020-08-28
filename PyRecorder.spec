@@ -2,9 +2,8 @@
 
 block_cipher = None
 
-
-a = Analysis(['PyRecorder.py'],
-             pathex=['C:\\Users\\Rocky Jain\\Desktop\\PyRecorder'],
+a = Analysis(['src\\PyRecorder.py'],
+             pathex=['E:\\Applications\\screen_recorder'],
              binaries=[],
              datas=[('C:\\Python3.7.4\\Lib\\site-packages\\cv2\\opencv_ffmpeg410_64.dll', '.')],
              hiddenimports=[],
